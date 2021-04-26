@@ -1,0 +1,22 @@
+h1{font-size: large;
+color: blue;
+
+text-align: center;}
+
+p {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+color: rgb(56, 3, 3);
+background-color: cadetblue;}
+h2 {
+font-size: larger;
+text-align: center;
+background-color: rgb(216, 122, 141);
+
+
+
+}
+ol {
+    background-color: rgb(139, 0, 116);
+}
+
+div {background-color: rgb(63, 124, 89);}
