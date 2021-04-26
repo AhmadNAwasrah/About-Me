@@ -1,7 +1,7 @@
 
 
 "use strict";
-/*
+
 
 
 alert('Welcome to my personal web site ');
@@ -20,20 +20,20 @@ else
 
 }
 
-var garduatedUnivercity=prompt('Guess from wich univercity I was grdduated just yarmouk jordan univercity ').toLocaleLowerCase;
+var garduatedUnivercity=prompt('Guess from wich univercity I was grdduated just yarmouk ju ').toLocaleLowerCase;
 switch(garduatedUnivercity)
 {
-    case 'just':
+    case just:
     alert('True')
     console.log(true);
     break;
 
-    case 'yarmouk' :
+    case yarmouk :
         
         alert('fales ')
         console.log(false);
         break;
-        case 'jordan univercity' :
+        case ju :
         
         alert('fales ')
         console.log(false);
@@ -42,12 +42,12 @@ switch(garduatedUnivercity)
         default : 
         alert('You enter wrong chooice  ')
         console.log('wrong choise');
+}
 
 
-}*/
 
-var smokingMan = prompt('Do yiu think I\m smoking man ? tab y for yes and n for no ').toLocaleLowerCase;
-if(smokingMan=='y') 
+var smokingMan = prompt('Do you think I\m smoking man ? tab y for yes and n for no ').toLocaleLowerCase;
+if(smokingMan=='n') 
 {alert('True');
 console.log(true);}
 else {
@@ -56,7 +56,7 @@ console.log(false);
 }
 
 var marridMan = prompt('Do you think I\m married man ? tab y for yes and n for no ').toLocaleLowerCase;
-if(marridMan=='y') 
+if(marridMan=='n') 
 {
     alert('True');
 console.log(true);
@@ -67,4 +67,26 @@ else
 console.log(false);
 }
 
+var employerMan = prompt('Do you think I\m employer man ? tab y for yes and n for no ').toLocaleLowerCase;
+if(employerMan=='n') 
+{
+    alert('True');
+console.log(true);
+}
+else 
+{
+    alert('Fales');
+console.log(false);
+}
 
+var tallMan = prompt('Do you think I\m tall man ? tab y for yes and n for no ').toLocaleLowerCase;
+if(tallMan=='y') 
+{
+    alert('True');
+console.log(true);
+}
+else 
+{
+    alert('Fales');
+console.log(false);
+}
