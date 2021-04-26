@@ -44,6 +44,9 @@ case 'just':
         console.log('wrong choise');
 
 
-
 }
+
+var smokingMan = prompt('Do yiu think I\m smoking man ? tab y for yes and n for no ');
+
+
 
