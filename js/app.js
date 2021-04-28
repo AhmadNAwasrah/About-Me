@@ -1,7 +1,7 @@
 
 
 "use strict";
-let scoure=0;
+let scoure = 0;
 
 
 alert('Welcome to my personal web site ');
@@ -143,25 +143,30 @@ else {
     console.log(false);
 }
 
-let favNumber=prompt('Guess my favorite number between 1-5?');
-myFavNumber=3;
-for (i=1;i<=4;i++)
-{
-if (myFavNumber===3)
-{alert('correct');
-console.log('correct');
+//let favNumber=prompt('Guess my favorite number between 1-5?');
+let myFavNumber = 3;
+for (let i = 1; i <= 4; i++) {
+    let favNumber = prompt('Guess my favorite number between 1-5?');
 
-}
-else if (favNumber<myFavNumber)
-{alert('too low ');
-scoure++;
 
-console.log('too low');}
-else {
-    alert('too Higte ');
+    if (favNumber == myFavNumber) {
+        alert('correct');
+        console.log('correct');
+        scoure++;
+        break;
 
-console.log('too Higte ');
-}
+    }
+    else if (favNumber < myFavNumber) {
+        alert('too low ');
+
+
+        console.log('too low');
+    }
+    else {
+        alert('too Higte ');
+
+        console.log('too Higte ');
+    }
 
 
 
@@ -199,34 +204,38 @@ console.log('too Higte ');
 
 alert('My favorate number is 3 ');
 
-let favpalce=['amman','irbid','ajloun','jersh','aqaba'];
+let favpalce = ['amman', 'irbid', 'ajloun', 'jersh', 'aqaba'];
 
 
-let flage=fales;
-for (j=1;h<=6;j++)
-{
-    let guessFavPlace=prompt('Pleas guess my favorate ');
-for(i=0;i<favpalce.length;i++)
-{
-    if(guessFavPlace==favpalce[i]){
-alert('Exsactly ');
-console.log('exsactly');
-flage =true;
-scoure++;
+let flage = false;
+for (let j = 1; j <= 6; j++) {
+    let guessFavPlace = prompt('Pleas guess my favorate place ');
+    for (let i = 0; i < favpalce.length; i++) {
+        if (guessFavPlace == favpalce[i]) {
+            alert('Exsactly ');
+            console.log('exsactly');
+            flage = true;
+            scoure++;
 
-break ;
+            break;
 
+        }
+        
+    }
+    if (flage == true) { break; }
+    else {
+        alert('Wrong try ');
+            console.log('Wrong try ');
+    }
 }
-if(flage===true){break;}
+
+if (flage == false) {
+    alert('sorry my favorate places is amman irbid ajloun jersh aqaba');
+    console.log('sorry my favorate places is amman irbid ajloun jersh aqaba');
 }
-}
-
-if(flage==false)
-{alert('sorry my favorate places is amman irbid ajloun jersh aqaba');
-console.log('sorry my favorate places is amman irbid ajloun jersh aqaba');}
 
 
-alert('your final Score is '+ scoure);
+alert('your final Score is ' + scoure);
 
 
 
