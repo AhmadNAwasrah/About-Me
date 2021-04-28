@@ -83,7 +83,7 @@ else {
 
 
 
-var smokingMan = prompt('Do you think I\m smoking man ? tab y for yes and n for no ').toLowerCase;
+var smokingMan = prompt('Do you think I\'m smoking man ? tab y for yes and n for no ').toLowerCase();
 if (smokingMan == 'n') {
     alert('True');
     console.log(true);
@@ -95,7 +95,7 @@ else {
     console.log(false);
 }
 
-var marridMan = prompt('Do you think I\m married man ? tab y for yes and n for no ').toLowerCase;
+var marridMan = prompt('Do you think I\'m married man ? tab y for yes and n for no ').toLowerCase();
 if (marridMan == 'n') {
     alert('True');
     console.log(true);
@@ -107,7 +107,7 @@ else {
     console.log(false);
 }
 
-var employerMan = prompt('Do you think I\m employer man ? tab y for yes and n for no ').toLowerCase;
+var employerMan = prompt('Do you think I\m employer man ? tab y for yes and n for no ').toLowerCase();
 if (employerMan == 'n') {
     alert('True');
     console.log(true);
@@ -119,7 +119,7 @@ else {
     console.log(false);
 }
 
-var tallMan = prompt('Do you think I\m tall man ? tab y for yes and n for no ').toLowerCase;
+var tallMan = prompt('Do you think I\m tall man ? tab y for yes and n for no ').toLowerCase();
 if (tallMan == 'y') {
     alert('True');
     console.log(true);
@@ -131,7 +131,7 @@ else {
     console.log(false);
 }
 
-var fateMan = prompt('Do you think I\m fate man ? tab y for yes and n for no ').toLowerCase;
+var fateMan = prompt('Do you think I\m fate man ? tab y for yes and n for no ').toLowerCase();
 if (fateMan == 'y') {
     alert('True');
     console.log(true);
@@ -144,45 +144,69 @@ else {
 }
 
 let favNumber=prompt('Guess my favorite number between 1-5?');
-let count=1;
-do 
+myFavNumber=3;
+for (i=1;i<=4;i++)
 {
-if(favNumber===3)
-{alert('Exsactly ');
-console.log('Exsactly');
+if (myFavNumber===3)
+{alert('correct');
+console.log('correct');
+
+}
+else if (favNumber<myFavNumber)
+{alert('too low ');
 scoure++;
 
-}
-else if(favNumber===2)
-{alert('too high')}
-eles
- if(favNumber===1)
-{alert('too low');
-console.log('too low');
-}
-else if(favNumber===4)
-{alert('too high')
+console.log('too low');}
+else {
+    alert('too Higte ');
 
-console.log('too high')}
+console.log('too Higte ');
+}
 
 
-else
-{
-alert('too low');
-console.log('too low');
 
 }
-count++;
-}
-while(count<4);
+// do 
+// {
+// if(favNumber===3)
+// {alert('Exsactly ');
+// console.log('Exsactly');
+// scoure++;
+
+// }
+// else if(favNumber===2)
+// {alert('too high')}
+// eles
+//  if(favNumber===1)
+// {alert('too low');
+// console.log('too low');
+// }
+// else if(favNumber===4)
+// {alert('too high')
+
+// console.log('too high')}
+
+
+// else
+// {
+// alert('too low');
+// console.log('too low');
+
+// }
+// count++;
+// }
+// while(count<4);
 
 alert('My favorate number is 3 ');
 
 let favpalce=['amman','irbid','ajloun','jersh','aqaba'];
 
-let guessFavPlace=prompt('Pleas guess my favorate ');
+
 let flage=fales;
-for(i=0;i<favpalce.length.i++)
+for (j=1;h<=6;j++)
+{
+    let guessFavPlace=prompt('Pleas guess my favorate ');
+for(i=0;i<favpalce.length;i++)
 {
     if(guessFavPlace==favpalce[i]){
 alert('Exsactly ');
@@ -193,7 +217,8 @@ scoure++;
 break ;
 
 }
-
+if(flage===true){break;}
+}
 }
 
 if(flage==false)
