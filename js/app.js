@@ -3,8 +3,9 @@
 "use strict";
 let scoure = 0;
 
-
-alert('Welcome to my personal web site ');
+function question1()
+{
+    alert('Welcome to my personal web site ');
 
 let age = 28;
 var gussedAge = prompt('Guess about my age numbers only ');
@@ -19,6 +20,11 @@ else {
     console.log(false);
 
 }
+
+}
+
+question1();
+
 
 // var garduatedUnivercity = prompt('Guess from wich univercity I was grdduated just yarmouk ju ').toLowerCase;
 // if (garduatedUnivercity) {
@@ -81,96 +87,125 @@ else {
 //         console.log('wrong choise');
 // }
 
-
-
-var smokingMan = prompt('Do you think I\'m smoking man ? tab y for yes and n for no ').toLowerCase();
-if (smokingMan == 'n') {
-    alert('True');
-    console.log(true);
-    scoure++;
-
-}
-else {
-    alert('Fales');
-    console.log(false);
-}
-
-var marridMan = prompt('Do you think I\'m married man ? tab y for yes and n for no ').toLowerCase();
-if (marridMan == 'n') {
-    alert('True');
-    console.log(true);
-    scoure++;
-
-}
-else {
-    alert('Fales');
-    console.log(false);
-}
-
-var employerMan = prompt('Do you think I\m employer man ? tab y for yes and n for no ').toLowerCase();
-if (employerMan == 'n') {
-    alert('True');
-    console.log(true);
-    scoure++;
-
-}
-else {
-    alert('Fales');
-    console.log(false);
-}
-
-var tallMan = prompt('Do you think I\m tall man ? tab y for yes and n for no ').toLowerCase();
-if (tallMan == 'y') {
-    alert('True');
-    console.log(true);
-    scoure++;
-
-}
-else {
-    alert('Fales');
-    console.log(false);
-}
-
-var fateMan = prompt('Do you think I\m fate man ? tab y for yes and n for no ').toLowerCase();
-if (fateMan == 'y') {
-    alert('True');
-    console.log(true);
-    scoure++;
-
-}
-else {
-    alert('Fales');
-    console.log(false);
-}
-
-//let favNumber=prompt('Guess my favorite number between 1-5?');
-let myFavNumber = 3;
-for (let i = 1; i <= 4; i++) {
-    let favNumber = prompt('Guess my favorite number between 1-5?');
-
-
-    if (favNumber == myFavNumber) {
-        alert('correct');
-        console.log('correct');
+function question2()
+{
+    var smokingMan = prompt('Do you think I\'m smoking man ? tab y for yes and n for no ').toLowerCase();
+    if (smokingMan == 'n') {
+        alert('True');
+        console.log(true);
         scoure++;
-        break;
-
-    }
-    else if (favNumber < myFavNumber) {
-        alert('too low ');
-
-
-        console.log('too low');
+    
     }
     else {
-        alert('too Higte ');
-
-        console.log('too Higte ');
+        alert('Fales');
+        console.log(false);
     }
-
-
-
 }
+question2();
+
+
+function question3()
+{
+    var marridMan = prompt('Do you think I\'m married man ? tab y for yes and n for no ').toLowerCase();
+    if (marridMan == 'n') {
+        alert('True');
+        console.log(true);
+        scoure++;
+    
+    }
+    else {
+        alert('Fales');
+        console.log(false);
+    }
+}
+question3();
+
+
+function question4()
+{
+    var employerMan = prompt('Do you think I\m employer man ? tab y for yes and n for no ').toLowerCase();
+    if (employerMan == 'n') {
+        alert('True');
+        console.log(true);
+        scoure++;
+    
+    }
+    else {
+        alert('Fales');
+        console.log(false);
+    }
+}
+
+function question5()
+{
+    var tallMan = prompt('Do you think I\m tall man ? tab y for yes and n for no ').toLowerCase();
+    if (tallMan == 'y') {
+        alert('True');
+        console.log(true);
+        scoure++;
+    
+    }
+    else {
+        alert('Fales');
+        console.log(false);
+    }
+}
+question5();
+
+function question6()
+{
+    var fateMan = prompt('Do you think I\m fate man ? tab y for yes and n for no ').toLowerCase();
+    if (fateMan == 'y') {
+        alert('True');
+        console.log(true);
+        scoure++;
+    
+    }
+    else {
+        alert('Fales');
+        console.log(false);
+    }
+}
+question6();
+
+
+
+//let favNumber=prompt('Guess my favorite number between 1-5?');
+
+function question7()
+{
+    let myFavNumber = 3;
+    for (let i = 1; i <= 4; i++) {
+        let favNumber = prompt('Guess my favorite number between 1-5?');
+    
+    
+        if (favNumber == myFavNumber) {
+            alert('correct');
+            console.log('correct');
+            scoure++;
+            break;
+    
+        }
+        else if (favNumber < myFavNumber) {
+            alert('too low ');
+    
+    
+            console.log('too low');
+        }
+        else {
+            alert('too Higte ');
+    
+            console.log('too Higte ');
+        }
+    
+    
+    
+    }
+    alert('My favorate number is 3 ');
+}
+
+question7();
+
 // do 
 // {
 // if(favNumber===3)
@@ -202,9 +237,10 @@ for (let i = 1; i <= 4; i++) {
 // }
 // while(count<4);
 
-alert('My favorate number is 3 ');
 
-let favpalce = ['amman', 'irbid', 'ajloun', 'jersh', 'aqaba'];
+function question8()
+{
+    let favpalce = ['amman', 'irbid', 'ajloun', 'jersh', 'aqaba'];
 
 
 let flage = false;
@@ -233,6 +269,10 @@ if (flage == false) {
     alert('sorry my favorate places is amman irbid ajloun jersh aqaba');
     console.log('sorry my favorate places is amman irbid ajloun jersh aqaba');
 }
+}
+
+question8();
+
 
 
 alert('your final Score is ' + scoure);
