@@ -2,10 +2,12 @@
 
 "use strict";
 let scoure = 0;
+let userName=prompt('Enter your name please ');
+//alert('welcome ' +userName);
 
 function question1()
 {
-    alert('Welcome to my personal web site ');
+    alert('Welcome '+userName+' to my personal web site ');
 
 let age = 28;
 var gussedAge = prompt('Guess about my age numbers only ');
@@ -275,7 +277,7 @@ question8();
 
 
 
-alert('your final Score is ' + scoure);
+alert('Hello '+ userName +' your  final Score is ' +userName + scoure);
 
 
 
